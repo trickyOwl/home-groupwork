@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="back-pic container-fluid">
@@ -15,8 +16,32 @@
                 <div class="logo h1 text-secondary text-uppercase mt-3 ml-5 font-weight-bold">
                     akad.
                 </div>
-                <div class="menu h1 text-secondary text-uppercase mt-3 mr-5 font-weight-bold">
-                    <i class="fas fa-bars"></i>
+                <div class=" menu h1 text-secondary text-uppercase mt-3 mr-5 font-weight-bold row">
+                    <div  id="hiding-menu" class="h5 menu-list">
+                        <ul class="nav text-secondary text-left">
+                            <li class="nav-item">
+                              <a class="text-secondary nav-link" href="#">home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-secondary" href="#">about us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-secondary" href="#">services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">portfolio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">blog</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">contact us</a>
+                              </li>
+                          </ul>
+                    </div>
+                    <div id="nav-pic">
+                        <i class="fas fa-bars"></i>
+                    </div>
                 </div>
             </div>
             <div class="title">
@@ -55,5 +80,15 @@
             </div>
         </div>
     </header>
+    <script>
+        function func(){
+            let nav = document.getElementById('hiding-menu');
+            nav.classList.toggle("your-move");
+            // alert(nav);
+            // console.log(nav)
+        }
+        let burger = document.getElementById('nav-pic');
+        burger.addEventListener("click", func);
+    </script>
 </body>
 </html>

@@ -8,16 +8,32 @@ body {
 }
 
 
+.back-pic .menu-list {
+    margin-top: 3px;
+    transition: all 100ms linear;
+
+}
+
+.your-move {
+    /* visibility: hidden; */
+    transform: translate(-10px, -100px);
+}
+
 .back-pic {
     height: 850px;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(rgba(255, 255, 255, 0.8),
+    background: linear-gradient(#ffffffcc,
             rgba(255, 255, 255, 0.8)),
         url(../img/Layer_1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+
+
 
 .menu-block .menu i:hover {
     color: black;
