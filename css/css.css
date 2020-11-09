@@ -1,0 +1,51 @@
+.subscribe {
+    background-color: #7beec7;
+    /* margin-bottom: 100px; */
+}
+
+.subscribe button {
+    background-color: white;
+    border: 0;
+    outline: none;
+    color: #7beec7;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subscribe button:hover {
+    color: black;
+}
+
+.input {
+    width: 300px;
+    outline: none;
+    border: 1px solid #999999;
+    height: 40px;
+    text-indent: 10px;
+}
+
+.input:focus {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.subscribe form button {
+    background-color: #7beec7;
+    color: white;
+    font-size: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer li a {
+    font-size: 13px;
+}
+
+footer .credits {
+    font-size: 13px;
+}
